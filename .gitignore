@@ -1,0 +1,8 @@
+node_modules/
+dist/
+public/assets/rsvp.js
+public/assets/admin.js
+config.local.php
+.env
+.env.*
+!.env.example

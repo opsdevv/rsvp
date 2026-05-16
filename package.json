@@ -1,0 +1,37 @@
+{
+
+  "name": "rsvp-php-supabase",
+
+  "private": true,
+
+  "type": "module",
+
+  "scripts": {
+
+    "dev": "vite",
+
+    "build": "vite build",
+
+    "build:lib": "vite build --config vite.lib.config.ts && vite build --config vite.admin-lib.config.ts",
+
+    "build:all": "npm run build && npm run build:lib",
+
+    "typecheck": "tsc --noEmit"
+
+  },
+
+  "dependencies": {
+
+    "@supabase/supabase-js": "^2.49.1"
+
+  },
+
+  "devDependencies": {
+
+    "typescript": "^5.8.3",
+
+    "vite": "^6.3.5"
+
+  }
+
+}
